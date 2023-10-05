@@ -1,0 +1,65 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "poster": "https://m.media-amazon.com/images/I/815qtzaP9iL._SL1500_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Pulp Fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "poster": "https://m.media-amazon.com/images/I/81uvld14l1L._SL1500_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Inception",
+      "description": "A thief who enters the dreams of others to steal ideas tries one last job before going straight.",
+      "poster": "https://m.media-amazon.com/images/I/71uKM+LdgFL._AC_SL1000_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Matrix",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "poster": "https://m.media-amazon.com/images/I/813dE2pH7XL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Dark Knight",
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "poster": "https://images.saymedia-content.com/.image/t_share/MTc0Mzk0MTExMDQ5MDgyMjE2/should-i-watch-the-dark-knight.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Forrest Gump",
+      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Fight Club",
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "poster": "https://m.media-amazon.com/images/I/31CauYmKHlL.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Interstellar",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "poster": "https://m.media-amazon.com/images/I/A1JVqNMI7UL._SL1500_.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Gladiator",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "poster": "https://m.media-amazon.com/images/I/61ATuIYm1EL._AC_SL1000_.jpg"
+    }
+  ]
+}
+
