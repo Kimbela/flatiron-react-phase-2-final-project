@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# flatiron-react-phase-2-final-project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie Directory - React Single Page Application
 
-## Available Scripts
+This project is a single-page application built using React that allows users to view a list of movies and add new movies to the list. The data is stored and retrieved from a `json-server` backend.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- View a list of movies with details such as title, description, and poster.
+- Add a new movie with a title and description through a controlled form.
+- Navigation bar for easy routing and access to external movie-related websites, IMDb and Rotten Tomatoes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **App.js**: Root component that wraps the application with React Router and defines the main routes.
+- **MoviesList.js**: Displays a list of movies retrieved from the backend.
+- **AddMovie.js**: Contains a form to add a new movie to the list.
+- **NavBar.js**: Navigation component that includes links to Home, Add Movie, IMDb, and Rotten Tomatoes.
+- **style.css**: Contains the styling for the application.
+- **db.json**: Contains the initial data for the `json-server` backend.
 
-### `npm test`
+## Installation and Running
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository.
+2. Install the necessary npm packages using `npm install`.
+3. Start the `json-server` using `json-server --watch db.json --port 3000`.
+4. Run the React app in development mode using `npm start`.
+5. Open [http://localhost:3001](http://localhost:3001) to view the app in the browser.
 
-### `npm run build`
+## External Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The navigation bar includes links to:
+- [IMDb](https://www.imdb.com/)
+- [Rotten Tomatoes](https://www.rottentomatoes.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Enhancements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Integrate with an actual backend for more persistent data storage.
+- Add features to edit and delete movies from the list.
+- Implement search and filter functionalities to easily navigate through the movie list.
